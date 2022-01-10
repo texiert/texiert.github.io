@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: white;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    color: oldlace;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+    color: oldlace;
+    font-size: 30pt;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+p {
+    color: oldlace;
+}
+
+section {
+    background-color: #333;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #333;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header {
+    width: 75%;
+    background-color: #335;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+article {
+    width: 200px;
+    height: 100px;
+}
+
+.sectionflex {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.vert {
+    background-color: green;
+}
+
+a.btn {
+    color: black;
+    background-color: oldlace;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: #335;
+    color: oldlace;
+}
+
+a.btn:active {
+    color: oldlace;
+    background-color: #300;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333;
+    color: oldlace;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: oldlace;
+}
+
+nav li :hover {
+    background-color: #666666;
+    border-radius: 10px;
+}
+
+nav li :active {
+    color: oldlace;
+    background-color: #335;
+    border-radius: 10px;
+}
+a {
+    font-family: 'Varela Round', sans-serif;
+    color: oldlace;
+}
